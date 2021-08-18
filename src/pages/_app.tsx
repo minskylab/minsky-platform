@@ -8,7 +8,7 @@ import Fonts from "theming/fonts";
 
 const client = URQLClient();
 
-const FairpayApp = ({ Component, pageProps }: AppProps) => {
+const Minsky = ({ Component, pageProps }: AppProps) => {
   return (
     <URQLProvider value={client}>
       <ChakraProvider resetCSS theme={customTheme}>
@@ -19,4 +19,4 @@ const FairpayApp = ({ Component, pageProps }: AppProps) => {
   );
 };
 
-export default FairpayApp;
+export default Minsky;

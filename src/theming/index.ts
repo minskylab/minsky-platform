@@ -2,7 +2,7 @@ import { Colors, TypographyProps, extendTheme, ThemeConfig } from "@chakra-ui/re
 import { GlobalStyles } from "@chakra-ui/theme-tools";
 
 const config: ThemeConfig = {
-  // initialColorMode: "dark",
+  initialColorMode: "dark",
   useSystemColorMode: true,
 };
 
