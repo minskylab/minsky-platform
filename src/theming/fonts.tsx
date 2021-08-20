@@ -1,4 +1,6 @@
 import { Global } from "@emotion/react";
+import "@fontsource/rubik";
+import "@fontsource/karla";
 
 const Fonts = () => (
   <Global

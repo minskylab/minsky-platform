@@ -1183,6 +1183,16 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/karla@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/karla/-/karla-4.5.0.tgz#f38e39e698a3efd60db46513fafbd3996aeae3fc"
+  integrity sha512-ULtbpNQ8Dw4kcdwG6bPkp9HMBFVsHbdNRzYaCE5vWfZPcSj1r0eIFW/cpUPqnpmspZpTCtltPAwaXkpA5/q4sQ==
+
+"@fontsource/rubik@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/rubik/-/rubik-4.5.0.tgz#e6e86606903d7102c565eec4b1339298308c3acb"
+  integrity sha512-evvN6wFvc4gH9X3PuRkAfaWXJya5jcZxbMpAsiQIfq8KUCSBx74Rknm5M6hpRuB9AdxdchF/A3p18VkR9RZy2g==
+
 "@graphql-codegen/cli@^1.21.7":
   version "1.21.7"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-1.21.7.tgz#ac90afdf0d166bc725c60d2269482e65af1c7848"

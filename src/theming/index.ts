@@ -1,4 +1,4 @@
-import { Colors, TypographyProps, extendTheme, ThemeConfig } from "@chakra-ui/react";
+import { Colors, extendTheme, ThemeConfig } from "@chakra-ui/react";
 import { GlobalStyles } from "@chakra-ui/theme-tools";
 
 const config: ThemeConfig = {
@@ -12,8 +12,8 @@ const colors: Colors = {
 };
 
 const fonts = {
-  body: "Open Sans, system-ui, sans-serif",
-  heading: "Georgia, serif",
+  body: "Karla, Open Sans, system-ui, sans-serif",
+  heading: "Rubik",
   mono: "Menlo, monospace",
 };
 
