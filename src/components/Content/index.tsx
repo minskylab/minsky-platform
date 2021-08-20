@@ -17,7 +17,14 @@ const Content = () => {
         <Button colorScheme="white" variant="outline" mx={4} mb={[3, 0]} fontWeight="light">
           Desarrolladores
         </Button>
-        <Button bg="primary.200" color="black" variant="solid" mx={4} mb={[3, 0]} fontWeight="light">
+        <Button
+          bg="primary.200"
+          color="black"
+          variant="solid"
+          mx={4}
+          mb={[3, 0]}
+          fontWeight="light"
+        >
           Conversemos
         </Button>
       </Flex>

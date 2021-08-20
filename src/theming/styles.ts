@@ -1,4 +1,3 @@
-
 import { GlobalStyles } from "@chakra-ui/theme-tools";
 
 const styles: GlobalStyles = {

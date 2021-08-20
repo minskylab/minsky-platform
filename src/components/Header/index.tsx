@@ -8,7 +8,7 @@ const Header = () => {
       <Logo />
       <Spacer />
       <Box>
-        <LangSelect langs={["ES", "ESP"]}/>
+        <LangSelect langs={["ES", "ESP"]} />
       </Box>
     </Flex>
   );

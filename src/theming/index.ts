@@ -7,10 +7,10 @@ const config: ThemeConfig = {
 };
 
 const colors: Colors = {
-  primary:  {
-    100: '#F2D96D',
-    200: '#FFDF53',
-    300: '#FFDB40',
+  primary: {
+    100: "#F2D96D",
+    200: "#FFDF53",
+    300: "#FFDB40",
   },
   secondary: "#FEE7AF",
 };
