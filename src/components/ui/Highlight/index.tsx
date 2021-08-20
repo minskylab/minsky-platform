@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 import { css } from "@emotion/css";
 
 type HighlightProps = {
@@ -8,17 +9,18 @@ type HighlightProps = {
 
 const Highlight = ({ text, color, bg }: HighlightProps) => {
   return (
-    <span
+    <Box
+      as="span"
+      bg={bg}
+      color={color}
+      m="0 0.5rem"
+      p="5px 7px"
       className={css`
-        padding: 5px;
-        background-color: ${bg};
-        color: ${color};
-        margin: 0 0.5rem;
         display: inline-flex;
       `}
     >
       {text}
-    </span>
+    </Box>
   );
 };
 

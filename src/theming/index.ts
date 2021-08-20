@@ -1,4 +1,4 @@
-import { Colors, extendTheme, ThemeConfig } from "@chakra-ui/react";
+import { Colors, extendTheme, ThemeConfig, withDefaultColorScheme } from "@chakra-ui/react";
 import { GlobalStyles } from "@chakra-ui/theme-tools";
 
 const config: ThemeConfig = {
@@ -7,7 +7,11 @@ const config: ThemeConfig = {
 };
 
 const colors: Colors = {
-  primary: "#8F98FE",
+  primary:  {
+    100: '#F2D96D',
+    200: '#FFDF53',
+    300: '#FFDB40',
+  },
   secondary: "#FEE7AF",
 };
 
@@ -25,6 +29,12 @@ const styles: GlobalStyles = {
   }),
 };
 
-const customTheme = extendTheme({ colors, config, styles, fonts });
+const customTheme = extendTheme(
+  { colors, config, styles, fonts },
+  withDefaultColorScheme({
+    colorScheme: "primary",
+    components: ["Button", "Badge"],
+  })
+);
 
 export { customTheme };

@@ -7,7 +7,12 @@ const HomePageContent = () => {
     <Container maxW="container.lg" h="100vh">
       <Box padding="4" w="100%" h="100vh">
         <Header />
-        <Flex align="center" mx="auto" height="calc(100% - 50px)" w={3 / 4}>
+        <Flex
+          align="center"
+          mx="auto"
+          height="calc(100% - 50px)"
+          w={["100%", "100%", "80%", "75%"]}
+        >
           <Content />
         </Flex>
       </Box>
