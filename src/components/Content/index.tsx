@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Flex, Button } from "@chakra-ui/react";
+import { Box, Heading, Text, Flex, Button, Link } from "@chakra-ui/react";
 import { Highlight } from "../ui/Highlight/index";
 
 const Content = () => {
@@ -14,19 +14,23 @@ const Content = () => {
         para nuestros clientes y para la sociedad.
       </Text>
       <Flex justify="center" wrap="wrap">
-        <Button colorScheme="white" variant="outline" mx={4} mb={[3, 0]} fontWeight="light">
-          Desarrolladores
-        </Button>
-        <Button
-          bg="primary.200"
-          color="black"
-          variant="solid"
-          mx={4}
-          mb={[3, 0]}
-          fontWeight="light"
-        >
-          Conversemos
-        </Button>
+        <Link href="#desarrolladores">
+          <Button colorScheme="white" variant="outline" mx={4} mb={[3, 0]} fontWeight="light">
+            Desarrolladores
+          </Button>
+        </Link>
+        <Link href="#conversemos">
+          <Button
+            bg="primary.200"
+            color="black"
+            variant="solid"
+            mx={4}
+            mb={[3, 0]}
+            fontWeight="light"
+          >
+            Conversemos
+          </Button>
+        </Link>
       </Flex>
     </Box>
   );
