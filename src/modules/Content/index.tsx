@@ -1,5 +1,5 @@
 import { Box, Heading, Text, Flex, Button, Link } from "@chakra-ui/react";
-import { Highlight } from "../ui/Highlight/index";
+import { Highlight } from "../../components/ui/Highlight/index";
 
 const Content = () => {
   return (

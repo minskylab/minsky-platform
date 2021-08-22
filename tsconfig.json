@@ -16,6 +16,6 @@
     "baseUrl": "src"
     
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/ui/LangSelect/index.tsx", "src/components/Content/index.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/ui/LangSelect/index.tsx", "src/modules/Content/index.tsx"],
   "exclude": ["node_modules"]
 }
