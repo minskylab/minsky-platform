@@ -2,14 +2,15 @@ import { Box, Container, Flex } from "@chakra-ui/react";
 import { Header } from "components/Header";
 import { Content } from "modules/Content";
 import { Menu } from "components/Menu";
+import { ThemeSwitcher } from "components/ui/themeSwitch";
 
 const HomePageContent = () => {
-  let menu = [
+  const menu = [
     ["Nosotros", "Filosofía", "Tecnología"],
     ["Tecnología", "Equipo", "Contactos"],
   ];
 
-  let bgImg = "images/backgrounds/ac_1.png";
+  const bgImg = "images/backgrounds/ac_1.png";
 
   return (
     <Box bgImage={bgImg} bgColor="rgba(0,0,0,0.7)" bgBlendMode="screen">
@@ -24,6 +25,7 @@ const HomePageContent = () => {
           <Content />
         </Flex>
         <Menu options={menu} />
+        <ThemeSwitcher />
       </Container>
     </Box>
   );

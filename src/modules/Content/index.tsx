@@ -1,9 +1,9 @@
-import { Box, Heading, Text, Flex, Button, Link } from "@chakra-ui/react";
+import { Heading, Text, Flex, Button, Link, Container } from "@chakra-ui/react";
 import { Highlight } from "../../components/ui/Highlight/index";
 
 const Content = () => {
   return (
-    <Box textAlign="center">
+    <Container textAlign="center" maxW="container.md">
       <Heading as="h1" fontSize={["26px", "36px", "48px"]} mb={5}>
         Una
         <Highlight text="nueva perspectiva" color="black" bg="primary.200" />
@@ -32,7 +32,7 @@ const Content = () => {
           </Button>
         </Link>
       </Flex>
-    </Box>
+    </Container>
   );
 };
 

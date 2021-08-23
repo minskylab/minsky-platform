@@ -6,7 +6,7 @@ type MenuProps = {
 
 const Menu = ({ options }: MenuProps) => {
   return (
-    <Box textAlign="left" pos="fixed" bottom={3}>
+    <Box textAlign="left" pos="absolute" bottom={3}>
       {options.map((option, index) => (
         <Box mb={3} key={index}>
           {option.map((opt, i) => (

@@ -2,8 +2,8 @@ import { Colors, extendTheme, ThemeConfig, withDefaultColorScheme } from "@chakr
 import { GlobalStyles } from "@chakra-ui/theme-tools";
 
 const config: ThemeConfig = {
-  initialColorMode: "dark",
-  useSystemColorMode: true,
+  initialColorMode: "light",
+  useSystemColorMode: false,
 };
 
 const colors: Colors = {
