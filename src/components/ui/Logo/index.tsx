@@ -1,10 +1,15 @@
 import { Box, Img } from "@chakra-ui/react";
-import logo from "../../../../public/images/logos/minsky.svg";
 
-const Logo = () => {
+type LogoProps = {
+  logo: string;
+};
+
+const logoRoute = "images/logos/";
+
+const Logo = ({logo}: LogoProps) => {
   return (
     <Box p="2">
-      <Img src={logo.src} />
+      <Img src={logoRoute + logo} />
     </Box>
   );
 };
