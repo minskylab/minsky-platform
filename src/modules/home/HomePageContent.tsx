@@ -21,8 +21,9 @@ const HomePageContent = () => {
       bgImage={bgImgRoute + (colorMode === "light" ? ("ac_w_" + ranNum +".jpg") : ("ac_b_" + ranNum +".png"))}
       bgColor="rgba(0,0,0,0.7)"
       bgBlendMode="screen"
+      
     >
-      <Container maxW="container.xl" h="100vh" bg="transparent" padding="4">
+      <Container maxW="container.xl" h="100vh" bg="transparent" padding="4" pos="relative">
         <Header />
         <Flex
           align="center"
