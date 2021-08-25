@@ -10,11 +10,9 @@ const ThemeSwitcher = () => {
       display="flex"
       alignItems="center"
       p={2}
-      mr={4}
-      mb={4}
+      ml={3}
       borderRadius={5}
       right={0}
-      pos="absolute"
       onClick={toggleColorMode}
     >
       <Icon as={colorMode === "light" ? MoonIcon : SunIcon} />

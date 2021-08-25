@@ -26,19 +26,19 @@ const styles: GlobalStyles = {
     "html, body": {
       backgroundColor: "dark",
     },
-    a: {
-      _hover: {
-        textDecoration: "none !important",
-      },
-      _focus: {
-        boxShadow: "none !important",
-      },
-    },
-    button: {
-      _focus: {
-        boxShadow: "none !important",
-      },
-    },
+    // a: {
+    //   _hover: {
+    //     textDecoration: "none !important",
+    //   },
+    //   _focus: {
+    //     boxShadow: "none !important",
+    //   },
+    // },
+    // button: {
+    //   _focus: {
+    //     boxShadow: "none !important",
+    //   },
+    // },
   }),
 };
 

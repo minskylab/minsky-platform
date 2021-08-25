@@ -2,7 +2,6 @@ import { Box, Container, Flex, useColorMode } from "@chakra-ui/react";
 import { Header } from "components/Header";
 import { Content } from "modules/Content";
 import { Menu } from "components/Menu";
-import { ThemeSwitcher } from "components/ui/themeSwitch";
 
 const HomePageContent = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -34,7 +33,6 @@ const HomePageContent = () => {
           <Content />
         </Flex>
         <Menu options={menu} />
-        <ThemeSwitcher />
       </Container>
     </Box>
   );
