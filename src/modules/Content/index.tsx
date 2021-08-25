@@ -3,7 +3,7 @@ import { Highlight } from "../../components/ui/Highlight/index";
 
 const Content = () => {
   return (
-    <Container textAlign="center" maxW="container.md">
+    <Container textAlign="center" maxW="container.sm">
       <Heading as="h1" fontSize={["2xl", "4xl", "5xl"]} mb={5}>
         Una
         <Highlight text="nueva perspectiva" color="black" bg="primary.200" />
