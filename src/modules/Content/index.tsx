@@ -1,12 +1,14 @@
-import { Heading, Text, Flex, Button, Link, Container } from "@chakra-ui/react";
+import { Heading, Text, Flex, Button, Link, Container, useBreakpointValue } from "@chakra-ui/react";
 import { Highlight } from "../../components/ui/Highlight/index";
 
 const Content = () => {
+  const buttonSize = useBreakpointValue(["sm", "md"]);
+
   return (
     <Container textAlign="center" maxW="container.sm">
       <Heading as="h1" fontSize={["2xl", "4xl", "5xl"]} mb={5}>
         Una
-        <Highlight text="nueva perspectiva" color="black" bg="primary.200" />
+        <Highlight>nueva perspectiva</Highlight>
         tecnológica para tus idea
       </Heading>
       <Text fontSize={["md", "lg", "xl"]} mb={10}>
@@ -14,25 +16,43 @@ const Content = () => {
         para nuestros clientes y para la sociedad.
       </Text>
       <Flex justify="center" wrap="wrap">
-        <Link href="#desarrolladores">
+        <Link
+          href="#desarrolladores"
+          sx={{
+            _hover: {
+              textDecoration: "none",
+            },
+          }}
+        >
           <Button
-            colorScheme="white"
-            variant="outline"
+            // colorScheme="white"
+            // variant="outline"
             mx={[1, 2, 4]}
             mb={[3, 0]}
-            fontWeight="light"
+            // fontWeight="light"
+            size={buttonSize}
           >
             Desarrolladores
           </Button>
         </Link>
-        <Link href="#conversemos">
+        <Link
+          href="#conversemos"
+          sx={{
+            _hover: {
+              textDecoration: "none",
+            },
+          }}
+        >
           <Button
-            bg="primary.200"
-            color="black"
+            colorScheme="yellow"
+            // bg="primary.200"
+            // color="black"
             variant="solid"
             mx={[1, 2, 4]}
             mb={[3, 0]}
-            fontWeight="light"
+            size={buttonSize}
+            // fontWeight="500"
+            // fontWeight="light"
           >
             Conversemos
           </Button>

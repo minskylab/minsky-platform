@@ -1,22 +1,13 @@
 import { Box } from "@chakra-ui/react";
 
 type HighlightProps = {
-  text: string;
-  color: string;
-  bg: string;
+  children: string;
 };
 
-const Highlight = ({ text, color, bg }: HighlightProps) => {
+const Highlight = ({ children }: HighlightProps) => {
   return (
-    <Box
-      as="span"
-      bg={bg}
-      color={color}
-      m="0 0.5rem"
-      p="5px 7px"
-      display="inline-flex"
-    >
-      {text}
+    <Box as="span" bg={"yellow.300"} color={"black"} m="0 0.5rem" p="5px 7px" display="inline-flex">
+      {children}
     </Box>
   );
 };
