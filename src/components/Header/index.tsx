@@ -8,10 +8,10 @@ const Header = () => {
 
   return (
     <Flex align="center">
-      <Logo logo={colorMode === "light" ? "minsky_b.svg" : "minsky_w.svg"}/>
+      <Logo logo={colorMode === "light" ? "minsky_b.svg" : "minsky_w.svg"} />
       <Spacer />
-      <Flex align="flex-end">
-        <LangSelect langs={["ES", "ESP"]} />
+      <Flex align="flex-end" gridGap={4}>
+        {/* <LangSelect langs={["ESPANOL", "INGLES"]} /> */}
         <ThemeSwitcher />
       </Flex>
     </Flex>
