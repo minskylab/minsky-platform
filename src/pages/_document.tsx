@@ -13,6 +13,12 @@ class Document extends NextDocument {
           <ColorModeScript initialColorMode={customTheme.config.initialColorMode} />
           <Main />
           <NextScript />
+          <script
+            async
+            src="https://analytics.internal.minsky.cc/tracker.js"
+            data-ackee-server="https://analytics.internal.minsky.cc"
+            data-ackee-domain-id="281f3b8d-0937-44d8-9ea8-eec23091d87c"
+          ></script>
         </body>
       </Html>
     );
