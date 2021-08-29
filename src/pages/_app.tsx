@@ -16,8 +16,8 @@ const Minsky = ({ Component, pageProps }: AppProps) => {
       <ChakraProvider resetCSS theme={customTheme}>
         <Fonts />
         <DefaultSeo
-          title="Minsky | Una nueva perspectiva tecnológica para tus ideas"
-          description="Minsky es una empresa peruana de desarrollo de software y consultoría de tecnologías emergentes. Minsky Lab es nuestra parte investigadora y creadora, siempre a la vanguadia de la tecnología. Nuestra misión es cambiar la realidad tecnológica de nuestro país."
+          title="Una nueva perspectiva tecnológica para tus ideas"
+          description="Minsky es una empresa peruana de desarrollo de software y consultoría de tecnologías emergentes. Minsky Lab es nuestro Hub de investigación y creación, siempre a la vanguadia de la tecnología. Nuestra misión es cambiar la realidad tecnológica de nuestro país."
           canonical="https://www.minsky.cc/"
           openGraph={{
             type: "website",
