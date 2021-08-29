@@ -17,7 +17,7 @@ const Minsky = ({ Component, pageProps }: AppProps) => {
         <Fonts />
         <DefaultSeo
           title="Una nueva perspectiva tecnológica para tus ideas"
-          description="Minsky es una empresa peruana de desarrollo de software y consultoría de tecnologías emergentes. Minsky Lab es nuestro Hub de investigación y creación, siempre a la vanguadia de la tecnología. Nuestra misión es cambiar la realidad tecnológica de nuestro país."
+          description="Minsky es una empresa peruana de desarrollo de software y consultoría en tecnologías emergentes. MinskyLab es nuestro Hub de investigación y creación, siempre buscando estar a la vanguardia de la tecnología. Nuestra misión más importante es cambiar la realidad tecnológica de nuestro país."
           canonical="https://www.minsky.cc/"
           openGraph={{
             type: "website",
@@ -25,12 +25,12 @@ const Minsky = ({ Component, pageProps }: AppProps) => {
             url: "https://minsky.cc/",
             site_name: "Minsky Lab",
             images: [
-                {
-                    url: "https://i.ibb.co/dcv40rX/minsky-square-1.png",
-                    alt: "Minsky",
-                    width: 512,
-                    height: 512,
-                },
+              {
+                url: "https://i.ibb.co/dcv40rX/minsky-square-1.png",
+                alt: "Minsky",
+                width: 512,
+                height: 512,
+              },
             ],
           }}
           twitter={{
