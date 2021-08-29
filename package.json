@@ -2,6 +2,7 @@
   "name": "base",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "generate": "graphql-codegen -c codegen.yml",
     "dev": "next dev",
