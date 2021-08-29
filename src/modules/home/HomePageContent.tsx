@@ -3,6 +3,7 @@ import { Header } from "components/Header";
 import { Content } from "modules/Content";
 import { Menu } from "components/Menu";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 const bgImage = (i: number, colorMode: "light" | "dark"): string => {
   return colorMode === "light"
@@ -25,6 +26,10 @@ const HomePageContent = () => {
 
   return (
     <Box bgImage={bgImage(randomIndex, colorMode)} bgColor="rgba(0,0,0,0.7)" bgBlendMode="screen">
+      <Head>
+          <title>Minsky | Home</title>
+          <meta name="theme-color" content="#ffdf53" />
+      </Head>
       <Container maxW="container.xl" h="100vh" bg="transparent" padding="4" pos="relative">
         <Header />
         <Flex

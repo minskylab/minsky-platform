@@ -19,7 +19,7 @@ export const data = {
     m_services: "Servicios",
     m_team: "Equipo",
     m_contact: "Contacto",
-    title: "Una <Highlight>nueva perspectiva</Highlight> tecnológica para tus idea",
+    title: "Una <Highlight>nueva perspectiva</Highlight> tecnológica para tus ideas",
     description:
       "En <strong>Minsky</strong> diseñamos y construimos soluciones digitales que generen valor para nuestros clientes y para la sociedad.",
     btn_devs: "Desarrolladores",
