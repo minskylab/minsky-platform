@@ -2,26 +2,29 @@ import { Box, Container, Flex, useColorMode } from "@chakra-ui/react";
 import { Header } from "components/Header";
 import { Content } from "modules/Content";
 import { Menu } from "components/Menu";
+import { useEffect, useState } from "react";
+
+const bgImage = (i: number, colorMode: "light" | "dark"): string => {
+  return colorMode === "light"
+    ? "url('images/backgrounds/ac_w_" + i + ".jpg')"
+    : "url('images/backgrounds/ac_b_" + i + ".png')";
+};
 
 const HomePageContent = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+  const [randomIndex, setRandomIndex] = useState(1);
 
   const menu = [
     ["Nosotros", "Filosofía", "Tecnología"],
-    ["Tecnología", "Equipo", "Contactos"],
+    ["Servicios", "Equipo", "Contactos"],
   ];
 
-  const bgImgRoute = "images/backgrounds/";
-
-  const ranNum = Math.floor(Math.random() * 2) + 1;
+  useEffect(() => {
+    setRandomIndex(Math.floor(Math.random() * 2) + 1);
+  }, []);
 
   return (
-    <Box
-      bgImage={bgImgRoute + (colorMode === "light" ? ("ac_w_" + ranNum +".jpg") : ("ac_b_" + ranNum +".png"))}
-      bgColor="rgba(0,0,0,0.7)"
-      bgBlendMode="screen"
-      
-    >
+    <Box bgImage={bgImage(randomIndex, colorMode)} bgColor="rgba(0,0,0,0.7)" bgBlendMode="screen">
       <Container maxW="container.xl" h="100vh" bg="transparent" padding="4" pos="relative">
         <Header />
         <Flex

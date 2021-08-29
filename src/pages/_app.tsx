@@ -4,6 +4,7 @@ import { Provider as URQLProvider } from "urql";
 
 import { customTheme } from "theming";
 import { URQLClient } from "lib/client";
+
 import Fonts from "theming/fonts";
 
 const client = URQLClient();
