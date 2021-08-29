@@ -17,7 +17,7 @@ class Document extends NextDocument {
             async
             src="https://analytics.internal.minsky.cc/tracker.js"
             data-ackee-server="https://analytics.internal.minsky.cc"
-            data-ackee-domain-id="281f3b8d-0937-44d8-9ea8-eec23091d87c"
+            data-ackee-domain-id="27dc13a2-fcf6-494a-99b6-dc40a0795946"
           ></script>
         </body>
       </Html>
