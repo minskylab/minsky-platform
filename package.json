@@ -19,6 +19,7 @@
     "@fontsource/karla": "^4.5.0",
     "@fontsource/rubik": "^4.5.0",
     "@urql/devtools": "^2.0.3",
+    "@vimeo/player": "^2.16.0",
     "framer-motion": "^4",
     "graphql": "^15.5.1",
     "next": "^11.1.0",
@@ -26,6 +27,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-intl": "^5.20.10",
+    "react-youtube": "^7.13.1",
     "urql": "^2.0.4"
   },
   "devDependencies": {
