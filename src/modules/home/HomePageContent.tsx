@@ -20,7 +20,7 @@ const HomePageContent = () => {
 
   const menu = [
     ["Nosotros", "Filosofía", "Tecnología"],
-    ["Servicios", "Equipo", "Contactos"],
+    ["Servicios", "Equipo", "Contacto"],
   ];
 
   const videoOptions = {
@@ -48,7 +48,7 @@ const HomePageContent = () => {
         bgColor={colorMode === "light" ? "rgba(255, 255, 255, 0.7)" : "rgba(0, 0, 0, 0.8)"}
       >
         <Head>
-          <title>Minsky | Home</title>
+          <title>Home - Minsky</title>
           <meta name="theme-color" content="#ffdf53" />
         </Head>
         <Container maxW="container.xl" h="100vh" bg="transparent" padding="4" pos="relative">

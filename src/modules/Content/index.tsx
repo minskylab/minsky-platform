@@ -3,13 +3,13 @@ import { Highlight } from "../../components/ui/Highlight/index";
 
 const Content = () => {
   const buttonSize = useBreakpointValue(["sm", "md"]);
-
+  const mailTo = "mailto:hello@minsky.cc?subject=Quiero realizar un proyecto de Diseño/Desarrollo";
   return (
     <Container textAlign="center" maxW="container.sm">
       <Heading as="h1" fontSize={["2xl", "4xl", "5xl"]} mb={5}>
         Una
         <Highlight>nueva perspectiva</Highlight>
-        tecnológica para tus idea
+        tecnológica para tus ideas
       </Heading>
       <Text fontSize={["md", "lg", "xl"]} mb={10}>
         En <strong>Minsky</strong> diseñamos y construimos soluciones digitales que generen valor
@@ -36,7 +36,7 @@ const Content = () => {
           </Button>
         </Link>
         <Link
-          href="#conversemos"
+          href={mailTo}
           sx={{
             _hover: {
               textDecoration: "none",
