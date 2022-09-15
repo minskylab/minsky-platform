@@ -42,7 +42,7 @@ const HomePageContent = () => {
 
   return (
     <Box h="100vh">
-      <VideoBg videoId="poJJwoLIMss" opts={videoOptions} h="100vh" w="100%" pos="absolute" />
+      {/* <VideoBg videoId="poJJwoLIMss" opts={videoOptions} h="100vh" w="100%" pos="absolute" /> */}
       <Box
         pos="relative"
         bgColor={colorMode === "light" ? "rgba(255, 255, 255, 0.7)" : "rgba(0, 0, 0, 0.8)"}
